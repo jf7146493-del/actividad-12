@@ -1,0 +1,17 @@
+Entidad: Causa
+Campos:
+id: Identificador único de la causa.
+titulo: Nombre o título de la petición.
+descripcion: Explicación detallada de la causa o problema.
+fecha: Fecha en la que fue creada la petición.
+
+¿Para qué sirve?
+La entidad Causa almacena toda la información de cada petición creada por los ciudadanos, permitiendo registrarlas, consultarlas y administrarlas.
+Entidad: Apoyo
+Campos:
+id: Identificador único del apoyo.
+causa_id: Identificador de la causa a la que pertenece el apoyo.
+nombre: Nombre del ciudadano que apoya la causa.
+fecha: Fecha en la que se registró el apoyo.
+¿Para qué sirve?
+La entidad Apoyo registra a las personas que respaldan una causa. Además, permite contar el número de apoyos y relacionarlos con la petición correspondiente mediante el campo causa_id.

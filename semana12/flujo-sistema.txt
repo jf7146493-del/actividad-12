@@ -1,0 +1,5 @@
+El ciudadano ingresa al sistema y crea una nueva petición completando un formulario con el título y la descripción de la causa.
+El sistema guarda automáticamente la petición en la base de datos y la publica para que otros ciudadanos puedan verla.
+Otros ciudadanos ingresan al sistema y apoyan la petición con un solo clic.
+El sistema registra cada apoyo, evita apoyos duplicados y actualiza el contador de firmas en tiempo real.
+Cuando la petición alcanza la cantidad de apoyos requerida, el sistema genera automáticamente un documento PDF con toda la información de la petición y el número de apoyos obtenidos.
